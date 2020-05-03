@@ -5,19 +5,19 @@ ESP8266を用いた電力計のモニタ装置です。計量パルス出力に�
 UDP Terminalなどを使用するとスマホから現在の消費電力を監視できます。  
 
 ■制作例  
-![PowerMonitor](doc/PowerMonitor.png)  
-![SensorKit_3](doc/SensorHead/SensorKit_3.png)  
+<img src="doc/PowerMonitor.png" width="600">  
+<img src="doc/SensorHead/SensorKit_3.png" width="600">  
   
 ■計量パルス出力に対応した電力計の例  
 「計量パルス」と書かれた穴から赤外光で計量パルスが出力されている。  
-![PowerMeter](doc/PowerMeter.png)  
+<img src="doc/PowerMeter.png" width="600">  
   
 ■動作の様子(YouTube)  
 [![](https://img.youtube.com/vi/UyEomVnbUj4/0.jpg)](https://www.youtube.com/watch?v=UyEomVnbUj4)  
   
 # 回路図
-![Schematic](doc/Schematic.png)  
-  
+<img src="doc/Schematic.png" width="600">  
+
 # 参考
 - Ambient_ESP8266_lib https://github.com/AmbientDataInc/Ambient_ESP8266_lib  
 - 2016-05-21 ESP8266 > udpLogger (with AccessPoint) > UDP受信文字列をSDに書込む https://qiita.com/7of9/items/6dc086b17fc43715b48b  
