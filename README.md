@@ -8,9 +8,10 @@ UDP Terminalなどを使用するとスマホから現在の消費電力を監�
 ![PowerMonitor](doc/PowerMonitor.png)  
   
 ■計量パルス出力に対応した電力計の例  
+「計量パルス」と書かれた穴から赤外光で計量パルスが出力されている。  
 ![PowerMeter](doc/PowerMeter.png)  
 
-■動作の様子  
+■動作の様子(YouTube)  
 [![](https://img.youtube.com/vi/UyEomVnbUj4/0.jpg)](https://www.youtube.com/watch?v=UyEomVnbUj4)  
 
 # 回路図
