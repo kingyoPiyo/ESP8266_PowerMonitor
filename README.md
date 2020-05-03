@@ -1,14 +1,17 @@
 # ESP8266_PowerMonitor
  
 ESP8266を用いた電力計のモニタ装置です。計量パルス出力に対応した電力計に装着して使用します。  
-電力計から出力される計量パルスを受信し、ESP8266で計数して消費電力に換算します。換算結果はUDPで任意の端末、サーバなどに転送します。また、Ambientに投稿することも出来ます。  
+電力計から出力される計量パルスを受信し、ESP8266で計数して消費電力に換算します。換算結果はUDPで任意の端末、サーバなどに転送します。また、Ambientに投稿することも出来ます。 
 UDP Terminalなどを使用するとスマホから現在の消費電力を監視できます。  
 
 ■制作例  
 ![PowerMonitor](doc/PowerMonitor.png)  
   
-■計量パルス出力に対応した電力計の例
+■計量パルス出力に対応した電力計の例  
 ![PowerMeter](doc/PowerMeter.png)  
+
+■動作の様子  
+[![](https://img.youtube.com/vi/UyEomVnbUj4/0.jpg)](https://www.youtube.com/watch?v=UyEomVnbUj4)  
 
 # 回路図
 ![Schematic](doc/Schematic.png)  
