@@ -4,19 +4,29 @@ ESP8266を用いた電力計のモニタ装置です。計量パルス出力に�
 電力計から出力される計量パルスを受信し、ESP8266で計数して消費電力に換算します。換算結果はUDPで任意の端末、サーバなどに転送します。また、Ambientに投稿することも出来ます。 
 UDP Terminalなどを使用するとスマホから現在の消費電力を監視できます。  
 
-■制作例  
+## 制作例  
 <img src="doc/PowerMonitor.png" width="600">  
 <img src="doc/SensorHead/SensorKit_3.png" width="600">  
   
-■計量パルス出力に対応した電力計の例  
+## 計量パルス出力に対応した電力計の例  
 「計量パルス」と書かれた穴から赤外光で計量パルスが出力されている。  
 <img src="doc/PowerMeter.png" width="600">  
   
-■動作の様子(YouTube)  
+## 動作の様子(YouTube)  
 [![](https://img.youtube.com/vi/UyEomVnbUj4/0.jpg)](https://www.youtube.com/watch?v=UyEomVnbUj4)  
   
 # 回路図
 <img src="doc/Schematic.png" width="600">  
+
+# 仕様
+| 項目 | 値 |
+| ---- | ---- |
+|  測定周期  |  1秒  |
+|  電源電圧  |  5V  |
+|  消費電流（全体）  |  平均80mA / ピーク280mA  |
+|  消費電流（受光部のみ）  |  1.1mA@5V  |
+|  最大感度波長  |  960nm（赤外） |
+
 
 # 参考
 - Ambient_ESP8266_lib https://github.com/AmbientDataInc/Ambient_ESP8266_lib  
