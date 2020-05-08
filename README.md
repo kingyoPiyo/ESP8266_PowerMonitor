@@ -15,7 +15,8 @@ UDP Terminalなどを使用するとスマホから現在の消費電力を監�
 ## 動作の様子(YouTube)  
 [![](https://img.youtube.com/vi/UyEomVnbUj4/0.jpg)](https://www.youtube.com/watch?v=UyEomVnbUj4)  
   
-# 回路図
+# 回路図  
+定数などは適当です。環境に合わせて微調整ください。  
 <img src="doc/Schematic.png" width="600">  
 
 # 仕様
